@@ -12,7 +12,7 @@ Installers:
       - RelativeFilePath: ortfodb_windows_386.exe
         PortableCommandAlias: ortfodb_windows_386
     InstallerUrl: https://github.com/ortfo/db/releases/download/v1.4.0/ortfodb_Windows_i386.zip
-    InstallerSha256: 6d55a0b36cad151063a34778dfdb3a1b5bc4d7ad4e7842a7e062fd849af4a1e3
+    InstallerSha256: a616e3f95356a66a51de3b13ce25184a09642d35e4583cf37c853deeabff5430
     UpgradeBehavior: uninstallPrevious
   - Architecture: arm64
     NestedInstallerType: portable
@@ -20,7 +20,7 @@ Installers:
       - RelativeFilePath: ortfodb_windows_arm64.exe
         PortableCommandAlias: ortfodb_windows_arm64
     InstallerUrl: https://github.com/ortfo/db/releases/download/v1.4.0/ortfodb_Windows_arm64.zip
-    InstallerSha256: 5afd156960282340487a6ff7cd7041837fbb1a81fc977fdc4a69d9013b139f09
+    InstallerSha256: 9e11dd2f11f834ad201aef97d56f00ffbc435009f57e742e01760c808056083f
     UpgradeBehavior: uninstallPrevious
   - Architecture: x64
     NestedInstallerType: portable
@@ -28,7 +28,7 @@ Installers:
       - RelativeFilePath: ortfodb_windows_amd64.exe
         PortableCommandAlias: ortfodb_windows_amd64
     InstallerUrl: https://github.com/ortfo/db/releases/download/v1.4.0/ortfodb_Windows_x86_64.zip
-    InstallerSha256: 450200d39d0b13fa4c3e2b953f4fdae1bfde7aeaf58e035b7c686efc6eb155d1
+    InstallerSha256: e7c5a3bff0d8168bfaa02ff14f8ce069bdc42150af7d4a38015f37af0f3f260e
     UpgradeBehavior: uninstallPrevious
 ManifestType: installer
 ManifestVersion: 1.6.0
